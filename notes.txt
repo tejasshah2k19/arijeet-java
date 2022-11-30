@@ -336,6 +336,34 @@ ab
 
 0
 4
+-------------------------------------------------------
+				Collection
+				
+	List 			Queue		Set       |     Map 
+	ArrayList 
+	Vector[synchronized]
+	thread safe 
+	
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
