@@ -17,7 +17,7 @@ public class ArrayListDemo {
 			System.out.println(x);
 		}
 
-		list.forEach(y -> System.out.println(y));
+		list.forEach((y) -> System.out.println(y));//Consumer
 
 		// remove -> index
 		// remove -> element

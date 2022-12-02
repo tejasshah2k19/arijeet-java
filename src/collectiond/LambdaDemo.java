@@ -10,6 +10,9 @@ public class LambdaDemo {
 		t.testDefault();
 		Testing.testStatic();
 
+		//
+		BankI bi = new BankI();
+		bi.test();
 		Bank b = new Bank();
 		b.balance = 1200000;
 		b.doSomeStuff(() -> {
@@ -30,7 +33,7 @@ public class LambdaDemo {
 class BankI implements Testing {
 	@Override
 	public void test() {
-		//
+		System.out.println("BankI");
 	}
 }
 
