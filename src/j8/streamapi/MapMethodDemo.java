@@ -18,5 +18,7 @@ public class MapMethodDemo {
 		List<Integer> sqrOfAllData = list.stream().map((t) -> t * t).collect(Collectors.toList());
 		System.out.println(list);
 		System.out.println(sqrOfAllData);
+
+		System.out.println( list.stream().filter((t)->t%2==0). collect(Collectors.toList()));
 	}
 }
