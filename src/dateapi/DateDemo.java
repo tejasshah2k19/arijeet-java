@@ -11,7 +11,7 @@ public class DateDemo {
 		Date d = new Date();
 		System.out.println(d);
 
-		System.out.println(d.getMonth());
+		System.out.println(d.getMonth());// 0  RR 
 		System.out.println(d.getHours());//
 
 		Calendar c = Calendar.getInstance();// abstract
